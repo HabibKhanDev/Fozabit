@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoxaBit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Foxa<span>Bit</span></div>
+    <div class="menu">
+      <div class="hamburger">
+        <div>&#9776;</div>
+      </div>
+      <button id="themeToggle" class="theme-btn">🌙</button>
+      <button class="login-btn">Login</button>
+      <button class="register-btn">Register</button>
+      <select class="lang">
+        <option>ENGLISH</option>
+        <option>URDU</option>
+      </select>
+    </div>
+  </header>
+
+  <section class="hero">
+    <p class="tagline">Send money globally to anyone</p>
+    <h1>It's Fast and Secured,<br> It's <span>Foxabit</span></h1>
+    <p class="desc">
+      Foxabit is a fast and secure P2P crypto exchange with auto deposit, auto withdrawal, 
+      and advanced trading features for a smooth user experience.
+    </p>
+    <div class="buttons">
+      <button class="register-btn big">Register</button>
+      <button class="contact-btn big">Contact us</button>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
